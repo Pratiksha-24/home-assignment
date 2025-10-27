@@ -35,12 +35,15 @@ AI (ChatGPT) was used to generate  API choices and provide architecture suggesti
 All functional logic, refactor code, and component structuring were reviewed and tested manually.
 
 Scaling & Team Practices
+
 Component-based architecture for maintainability.
 React Query allows caching, polling, and background updates — reducing API load and improving UX.
 TypeScript ensures type safety across multiple developers.
 Theming support via MUI + styled-components enables easy design updates.
 Testing: Unit tests can be written using @testing-library/react for core components (e.g., table rendering, search/filter logic).
-
+Future Considerations
+Integrate CI/CD (GitHub Actions or Vercel Deploy Hooks).
+Use TypeScript strict mode and shared ESLint + Prettier configs.
 Code reviews & branching:
 Use feature branches for enhancements.
 PR reviews ensure code quality and maintain consistency.
