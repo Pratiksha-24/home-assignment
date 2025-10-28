@@ -5,19 +5,30 @@ Crypto Tracker
 
 A real-time cryptocurrency tracker built with React, TypeScript, React Query, TanStack Table, MUI, and styled-components. Features include search, filtering, sorting, dark/light mode, and automatic data updates.
 
-Setup Instructions
+Setup Instructions:
+
 git clone https://github.com/Pratiksha-24/home-assignment/tree/main
+
 cd crypto-price-tracker
+
 npm install
+
 npm start
 
-Features
+Features:
+
 Fetches real-time cryptocurrency data from https://www.coingecko.com/en/api
+
 Search coins by name.
+
 Filter coins: all, top 10, gainers, losers.
+
 Sort by rank, price, or 24hours change.
+
 Dark/light mode toggle.
+
 Handling of loading, error, and empty states.
+
 Fully styled using styled-components while leveraging MUI components for consistent UI.
 
 Technical Choices
@@ -30,20 +41,28 @@ Technical Choices
 | Type safety               | **TypeScript**        | Ensures reliability, easier debugging, and better IDE support.          |
 
 
-AI Usage
+AI Usage:
+
 AI (ChatGPT) was used to generate  API choices and provide architecture suggestions.
+
 All functional logic, refactor code, and component structuring were reviewed and tested manually.
 
 Scaling & Team Practices
 
 Component-based architecture for maintainability.
+
 React Query allows caching, polling, and background updates — reducing API load and improving UX.
+
 TypeScript ensures type safety across multiple developers.
+
 Theming support via MUI + styled-components enables easy design updates.
+
 Testing: Unit tests can be written using @testing-library/react for core components (e.g., table rendering, search/filter logic).
-Future Considerations
+
+Future Considerations: 
 Integrate CI/CD (GitHub Actions or Vercel Deploy Hooks).
 Use TypeScript strict mode and shared ESLint + Prettier configs.
+
 Code reviews & branching:
 Use feature branches for enhancements.
 PR reviews ensure code quality and maintain consistency.
